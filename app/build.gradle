@@ -1,0 +1,153 @@
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'com.neenbedankt.android-apt'
+
+//该函数获取了打包Release时的系统时间,并格式化
+def releaseTime() {
+    return new Date().format("yyyy-MM-dd HH-mm-ss",TimeZone.getTimeZone("GMT-8"))
+}
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '24.0.0 rc4'
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId "com.chenbing.animdvedemo"
+        minSdkVersion 19
+        targetSdkVersion 23
+        versionCode 3
+        versionName "1.3"
+    }
+
+    signingConfigs { //配置签名文件，可以有多个
+        icekey {
+            keyAlias 'icekey'
+            keyPassword '759393474'
+            storeFile file('/Users/chenbing/Desktop/Android/key/icekey.jks')
+            storePassword '759393474'
+        }
+    }
+
+    buildTypes { //配置构建版本，可以有多个
+        //测试版本
+        debug {
+            debuggable true
+            zipAlignEnabled false
+            shrinkResources false
+            signingConfig signingConfigs.icekey
+            minifyEnabled false
+        }
+
+        //发布版本
+        release {
+            debuggable false //是否开启测试
+            zipAlignEnabled true //是否启用zipAlign压缩优化
+            shrinkResources true //是否删除未被使用的资源文件
+            minifyEnabled false  //是否开启混淆
+            signingConfig signingConfigs.icekey //签名文件
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //指定混淆文件
+        }
+
+        //空版本
+        source {
+            debuggable true //是否开启测试
+            zipAlignEnabled true //是否启用zipAlign压缩优化
+            shrinkResources true //是否删除未被使用的资源文件
+            minifyEnabled false  //是否开启混淆
+            signingConfig signingConfigs.icekey //签名文件
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //指定混淆文件
+        }
+    }
+
+    testOptions {
+        //测试配置
+        unitTests.returnDefaultValues = true //测试中是否允许返回默认值
+    }
+
+//    //创建渠道名称,main{}是一个不合法名称
+//    productFlavors {
+//        baidu {}
+//        huawei {}
+//        xiaomi {}
+//    }
+//
+////    这里体现在AndroidManifest中的
+////    <meta-data
+////    android:name="UMENG_CHANNEL"
+////    android:value="${UMENG_CHANNEL_VALUE}"/>
+//    //运行自动复制
+//    productFlavors.all {
+//        flavor -> flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+//    }
+//
+//    lintOptions { //配置打包线程的操作
+//        ignoreWarnings true //忽略警告
+//        checkReleaseBuilds false //是否检查release版本
+//        abortOnError false //出现错误是否终止
+//    }
+//    applicationVariants.all { variant ->
+//        variant.outputs.each { output ->
+//            def outputFile = output.outputFile
+//            if (outputFile != null && outputFile.name.endsWith(".apk")) {  //判断是否是apk
+//                //这个函数生成了apk的名称
+//                def apkName = "ice-${variant.productFlavors[0].name}-${defaultConfig.versionName}.apk"
+////                def apkName = "ice-" + variant.productFlavors[0].name + "-" + defaultConfig.versionName + ".apk"
+//                output.outputFile = new File(outputFile.parent, apkName) //输出文件
+//            }
+//        }
+//    }
+//    packagingOptions {
+//        exclude 'META-INF/services/javax.annotation.processing.Processor'
+//    }
+}
+
+dependencies {
+    //编译依赖库
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //过滤地址
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'io.reactivex:rxjava:1.1.9'
+    compile 'com.android.support:recyclerview-v7:24.0.0'
+    compile 'com.android.support:design:24.0.0'
+    compile 'com.android.support:cardview-v7:24.0.0'
+    compile 'com.google.code.gson:gson:2.2.4'
+    apt 'com.google.dagger:dagger-compiler:2.6'
+    compile 'com.google.dagger:dagger:2.6'
+    compile 'com.facebook.fresco:fresco:0.12.0'
+    compile 'junit:junit:4.12'
+    compile 'com.jakewharton:butterknife:8.2.1'
+    apt 'com.jakewharton:butterknife-compiler:8.2.1'
+    compile 'io.reactivex:rxandroid:1.2.1'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.3.1'
+    compile 'com.squareup.okhttp3:okhttp:3.3.1'
+    compile 'com.squareup.okhttp3:okhttp-ws:3.3.1'
+    compile 'com.umeng.analytics:analytics:latest.integration'
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath 'me.tatarka:gradle-retrolambda:3.2.5'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+    }
+}

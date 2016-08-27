@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/com.android.support-design-24.0.0_ec0684c9b4942f230ad947f410ee4c79cd86c3a9.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/converter-gson-2.1.0_49ce5f4aaf2ee0b981a641c61ce80ab1fe1d744e.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/com.android.support-support-vector-drawable-24.0.0_46cc765bd1984adaab1eed0c5805e365fcb59f57.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/.gradle/caches/modules-2/files-2.1/com.umeng.analytics/analytics/6.0.1/aab9085bca0c26dcb9cb11837a5f5e22cc102a5e/analytics-6.0.1.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="aab9085bca0c26dcb9cb11837a5f5e22cc102a5e">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/analytics-6.0.1_7464b6a816adc01b4c5a3ed6b4c093765a6eb162.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.3.1/ebca9fdfbef870042a19aec6a5b7a21d72639310/okhttp-ws-3.3.1.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="ebca9fdfbef870042a19aec6a5b7a21d72639310">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/okhttp-ws-3.3.1_bc90600ce201ce679ce27c70761a9bf1bc70ea12.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/com.android.support-recyclerview-v7-24.0.0_1e89e676f05b97928004787b3c47279fac8f7ebe.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.2.1/d6f54d76edfbe779a50a8636b10fd3f555d8f780/butterknife-annotations-8.2.1.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="d6f54d76edfbe779a50a8636b10fd3f555d8f780">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/butterknife-annotations-8.2.1_485db7a19107f6f4deafc8f97d619f7779075940.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/internal_impl-24.0.0_0b097228f5c95404461aca56a5ac1fcb5f8d5bc0.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/com.android.support-appcompat-v7-24.0.0_23ef28c245751d047671a388ba738f67c7f054a7.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/com.android.support-animated-vector-drawable-24.0.0_c51838713b10912eb10277ec33e39a5465f3f5e6.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.1/19047bdb6a4fc00a44124f64ca98e88fc204e7e3/okhttp-3.3.1.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/okhttp-3.3.1_7133d389797f44f14c737846409977a4d7028eda.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/adapter-rxjava-2.1.0_3a853219847344d3874f05f7009d3538c16292e8.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/bolts-tasks-1.4.0_532087d6af6fd962e331a4f1fd1595bcb4b9dc9c.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.6/a2e0fb833ba928689fb8b8d9cc92a81298da7c37/dagger-2.6.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="a2e0fb833ba928689fb8b8d9cc92a81298da7c37">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/dagger-2.6_95d35bf79f089b670cc112689675cd8ac6d0c90c.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.12.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="a540784239c611ea490593e2053a5e2890675c68">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/com.facebook.fresco-fresco-0.12.0_aed896145f496c7cb093145a5ac7a492903ebe8c.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/com.android.support-cardview-v7-24.0.0_f7e7e5f695f36d1dc68a246df1ed81ba8962c127.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.3.1/99ce730034c6f5aaed710d1e0e9df95e8714ed5f/logging-interceptor-3.3.1.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="99ce730034c6f5aaed710d1e0e9df95e8714ed5f">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/logging-interceptor-3.3.1_ff9cf0c837aa140f15b01092032e6bc1330efa09.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/io.reactivex-rxandroid-1.2.1_e6ee87e936afadcdaa188c950bc9799836eacc51.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/javax.inject-1_501f85bb0faf3c1baabab690f52c7307d0d992d4.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/retrofit-2.1.0_ca33a511eea05132249b306fd01aef32f02885e4.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/okio-1.8.0_73c90e1124db6050fc03eebef1584c3bdba32713.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.12.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="c9a86e6bc8300fc00c191949ac61a2f7165e35c7">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/com.facebook.fresco-imagepipeline-base-0.12.0_6ac54ef5b18f514f3bc72e31e5e6cad92cd9de77.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/hamcrest-core-1.3_0bec860e1574ec10f45ae1dd5354be7113cbed51.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.0.0/2943c74db6d4346ab8c6531adac91fa05c137c40/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/support-annotations-24.0.0_3891f24b9a33cd53d3c90eec49faeadbb9f75a03.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.12.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="1e346707e4770db216049a532ab3eb5e317cf82a">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/com.facebook.fresco-drawee-0.12.0_c4d3493a6573731ec41174549a6febd8ed452d8f.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/gson-2.7_7921c91c165c0f3bcfffa240a802fa0692fb147f.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.12.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="40e5cb8708fc25fe57cb403cc82e9ef98376b648">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/com.facebook.fresco-fbcore-0.12.0_7da5f381728c9e84d24ee6b0f384d4525f00b05a.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.12.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="145da27a459a63ea0c4e318930365cf0a8b8e891">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/com.facebook.fresco-imagepipeline-0.12.0_7c883bf3adaa23fbe735d70075ae69ef2e580acd.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/com.android.support-support-v4-24.0.0_f1ba59874e42579331bc654c54ab35132234832f.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="ca5e58104f56f918f0fb3a5b1b371ab599ae56b2">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/com.jakewharton-butterknife-8.2.1_8742df2d5ea51d515919d271e8c5fcc80ca82c9b.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.9/e4362e62f1ba92e360b197d6d7ffae67e5ecae9a/rxjava-1.1.9.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="e4362e62f1ba92e360b197d6d7ffae67e5ecae9a">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/rxjava-1.1.9_1af60225b896a0032b43330c463466c8fd7e8a15.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/library-2.4.0_262909018483a694a1441c66884a6de227f9bde8.jar" />
+    </item>
+    <item
+        jar="/Users/chenbing/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar"
+        jumboMode="false"
+        revision="24.0.0 rc4"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="/Users/chenbing/Desktop/Android/work/kratos/backoff/AnimDveDemo/app/build/intermediates/pre-dexed/source/junit-4.12_283263fbae7406010bb4143e71846c2b03fbd26f.jar" />
+    </item>
+
+</items>

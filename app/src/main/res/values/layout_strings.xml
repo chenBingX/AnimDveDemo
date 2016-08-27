@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!--Button-->
+  <string name="save_user">存储User</string>
+  <string name="restore_user">恢复User</string>
+</resources>

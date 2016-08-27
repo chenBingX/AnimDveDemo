@@ -1,0 +1,43 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        ba8099e com.example.chenbing.animdvedemo/.Views.MainActivity
+
+Key Set Manager:
+  [com.example.chenbing.animdvedemo]
+      Signing KeySets: 211
+
+Packages:
+  Package [com.example.chenbing.animdvedemo] (6db6876):
+    userId=10410
+    pkg=Package{7ae6c7f com.example.chenbing.animdvedemo}
+    codePath=/data/app/com.example.chenbing.animdvedemo-2
+    resourcePath=/data/app/com.example.chenbing.animdvedemo-2
+    legacyNativeLibraryDir=/data/app/com.example.chenbing.animdvedemo-2/lib
+    primaryCpuAbi=armeabi-v7a
+    secondaryCpuAbi=null
+    versionCode=1 targetSdk=23
+    versionName=1.0
+    splits=[base]
+    applicationInfo=ApplicationInfo{38d144c com.example.chenbing.animdvedemo}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/com.example.chenbing.animdvedemo
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2016-09-20 11:55:27
+    firstInstallTime=2016-09-04 18:51:02
+    lastUpdateTime=2016-09-20 11:55:28
+    signatures=PackageSignatures{279ab4d [e08fc95]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+    install permissions:
+      android.permission.INTERNET: granted=true
+    User 0:  installed=true hidden=false stopped=false notLaunched=false enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".Views.MainActivity">
+  <Button
+    android:id="@+id/btn_play_anim"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/ll"
+    android:text="开始"
+    tools:text="开始"/>
+
+  <LinearLayout android:id="@+id/ll"
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="@android:color/holo_red_dark">
+    <View
+      android:id="@+id/v_stop_game_icon"
+      android:layout_width="35dp"
+      android:layout_height="35dp"
+      android:layout_marginBottom="514dp"
+      android:layout_marginLeft="0dp"
+      android:background="@drawable/live_btn_finish"
+      android:visibility="visible"/>
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:text="结束游戏"
+      android:textColor="@android:color/black"
+      android:gravity="center"
+      android:textSize="11dp"
+      android:singleLine="true"
+      android:paddingRight="2dp"
+      />
+  </LinearLayout>
+
+  <ImageView android:id="@+id/iv_display_image"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btn_play_anim"
+    tools:src="@drawable/live_btn_finish"/>
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/iv_display_image">
+    <LinearLayout android:id="@+id/temp_container_tow_btn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <Button android:id="@+id/btn_save_user"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/save_user"
+        android:textSize="@dimen/normal_text_size"
+        />
+      <Button android:id="@+id/btn_restore_user"
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:text="@string/restore_user"
+              android:textSize="@dimen/normal_text_size"
+        />
+    </LinearLayout>
+    <TextView android:id="@+id/tv_display_user_info"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_below="@+id/temp_container_tow_btn"
+      android:textSize="@dimen/normal_text_size"
+              android:textColor="@color/black"
+      />
+  </RelativeLayout>
+
+</RelativeLayout>
